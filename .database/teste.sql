@@ -29,6 +29,6 @@ WHERE u_status != 'del';
 SELECT * FROM treco
 WHERE t_usuario = '1';
 
--- Lista todos os trecos do "Joca" (id = 1) que estejam "online" (status = 'on')
+-- Lista todos os trecos do "Joca" (id = 1) que estejam "online" (status == 'on')
 SELECT * FROM treco 
 WHERE t_usuario = '1' AND t_status = 'on';
